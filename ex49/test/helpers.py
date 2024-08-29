@@ -29,3 +29,18 @@ ADJACENT_SCENES = {
     "green": ["finished", "atrium"],
     "finished": [],
 }
+
+
+ADJACENT_SCENES = {
+    "opening": ["atrium"],
+    "atrium": ["green"],
+    "green": ["finished", "atrium"],
+    "finished": [],
+}
+
+BAD_ADJACENT_SCENES = {
+    "opening": ["atrium"],
+    "atrium": [],
+    "green": ["finished", "atrium"],
+    "finished": [],
+}
