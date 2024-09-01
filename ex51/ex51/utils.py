@@ -49,13 +49,3 @@ def generate_data_dict(*args):
             print(e)
 
     return data
-
-
-def get_max_widths(ordered_dict):
-    max_keys = ordered_dict.keys()
-    max_values = ordered_dict.values()
-    return (max_keys, max_values,)
-
-
-def print_ordered_dict(ordered_dict):
-    print(get_max_widths(ordered_dict))

@@ -22,7 +22,8 @@ def get_pdf(path_string):
 def get_matching_lines(pdf, startswith):
     """Get a line of text that starts with a certain string."""
     lines = [line for page in pdf for line in page.splitlines()]
-    matching_lines = [line.strip() for line in lines if line.startswith(startswith)]
+    filtered_lines = [line.replace("REVISED", "").strip() for line in lines]
+    matching_lines = [line.strip() for line in filtered_lines if line.startswith(startswith)]
 
     return matching_lines
 
@@ -74,5 +75,4 @@ def get_number_clusters(pdf):
         if current_cluster:
             clusters.append(current_cluster)  # pragma: no cover
             current_cluster = []  # pragma: no cover
-
     return clusters

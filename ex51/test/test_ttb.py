@@ -12,7 +12,7 @@ def test_get_large_clusters(number_clusters):
 
 def test_get_large_clusters_right_numbers(large_clusters):
     for key in large_clusters.keys():
-        assert len(large_clusters[key]) == 9
+        assert len(large_clusters[key]) > 5
 
 
 def test_get_stocks_on_hand(stocks_on_hand):

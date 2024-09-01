@@ -8,7 +8,7 @@ COLUMNS = [
 
 def get_large_clusters(clusters):
     """Get a dictionary based on clumns and grouped rows based in the TTB PDF."""
-    raw_numbers = [cluster for cluster in clusters if len(cluster) == 9]
+    raw_numbers = [cluster for cluster in clusters if len(cluster) > 5]
     dictionary = dict(zip(COLUMNS, raw_numbers))
 
     return dictionary
