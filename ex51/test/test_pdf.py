@@ -2,8 +2,8 @@ import os
 from datetime import date
 import pytest
 
-from ..utils import DATE_FORMATS, to_snake_case
-from ..pdf import get_pdf, get_matching_lines, get_line_items, get_number_clusters
+from ..ex51.utils import DATE_FORMATS, to_snake_case
+from ..ex51.pdf import get_pdf, get_matching_lines, get_line_items, get_number_clusters
 from pdftotext import PDF
 
 

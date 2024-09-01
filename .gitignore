@@ -2,4 +2,4 @@ __pycache__/
 .vscode
 .DS_Store
 .coverage
-ex49/.coverage
+.pytest_cache

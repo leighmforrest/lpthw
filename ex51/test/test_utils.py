@@ -1,7 +1,7 @@
 import os
 import pytest
 
-from ..utils import (
+from ..ex51.utils import (
     parse_to_iso_date,
     to_snake_case,
     to_capitalized,

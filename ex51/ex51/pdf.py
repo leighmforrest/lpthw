@@ -9,6 +9,7 @@ NUMBERS_PATTERN = r"^[\d,]+$"
 
 
 def get_pdf(path_string):
+    """Get a text object from an existing PDF."""
     if is_pdf(path_string):
         with open(path_string, "rb") as file:
             pdf = pdftotext.PDF(file)
@@ -19,6 +20,7 @@ def get_pdf(path_string):
 
 
 def get_matching_lines(pdf, startswith):
+    """Get a line of text that starts with a certain string."""
     lines = [line for page in pdf for line in page.splitlines()]
     matching_lines = [line.strip() for line in lines if line.startswith(startswith)]
 
