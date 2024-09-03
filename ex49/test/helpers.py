@@ -1,4 +1,4 @@
-from ex49.scenes import Scene
+from ..scenes import Scene
 
 
 class Atrium(Scene):

@@ -1,9 +1,9 @@
 import pytest
 
-from ex49.character import Character, Player
+from ..character import Character, Player
 from .helpers import SCENES, ADJACENT_SCENES
-from ex49.map import Map
-from ex49.engine import Engine
+from ..map import Map
+from ..engine import Engine
 
 
 @pytest.fixture

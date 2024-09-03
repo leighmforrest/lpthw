@@ -1,5 +1,5 @@
 from unittest.mock import patch
-from ex49.character import WEAPONS
+from ..character import WEAPONS
 
 
 def test_character_exists(character):

@@ -2,7 +2,7 @@ import pytest
 import sys
 from unittest.mock import patch
 
-from ex49.utils import player_input, death
+from ..utils import player_input, death
 
 
 CHOICES = ["red", "blue", "green"]

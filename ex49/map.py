@@ -1,9 +1,12 @@
+import copy
+
+
 class Map(object):
 
     def __init__(self, scenes, adjacent_scenes):
         if type(scenes) == dict and type(adjacent_scenes) == dict:
-            self._scenes = scenes
-            self._adjacent_scenes = adjacent_scenes
+            self._scenes = copy.deepcopy(scenes)
+            self._adjacent_scenes = copy.deepcopy(adjacent_scenes)
         else:
             raise ValueError("Arguments must be dictionaries.")
 

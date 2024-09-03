@@ -1,7 +1,7 @@
 import pytest
 
-from ex49.map import Map
-from ex49.scenes import Scene
+from ..map import Map
+from ..scenes import Scene
 
 
 def test_map___init___success(map):

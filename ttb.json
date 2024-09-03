@@ -1,0 +1,38 @@
+[
+    {
+        "reporting_period": "2021-12-01",
+        "report_date": "2022-09-08",
+        "production_current_month": 14603993,
+        "production_prior_year_current_month": 15451967,
+        "production_current_year_cumulative_to_date": 181181671,
+        "production_prior_year_cumulative_to_date": 180963054,
+        "stocks_on_hand_end_of_month_current_month": 10947220,
+        "stocks_on_hand_end_of_month_prior_year_current_month": 11850641,
+        "actual_sales_current_month": 3656773,
+        "actual_sales_prior_year_current_month": 3601326
+    },
+    {
+        "reporting_period": "2021-10-01",
+        "report_date": "2022-01-12",
+        "production_current_month": 14232172,
+        "production_prior_year_current_month": 14249879,
+        "production_current_year_cumulative_to_date": 152978238,
+        "production_prior_year_cumulative_to_date": 151960985,
+        "stocks_on_hand_end_of_month_current_month": 10798720,
+        "stocks_on_hand_end_of_month_prior_year_current_month": 9555100,
+        "actual_sales_current_month": 3433452,
+        "actual_sales_prior_year_current_month": 4694779
+    },
+    {
+        "reporting_period": "2021-11-01",
+        "report_date": "2022-03-09",
+        "production_current_month": 13094569,
+        "production_prior_year_current_month": 13402012,
+        "production_current_year_cumulative_to_date": 166237384,
+        "production_prior_year_cumulative_to_date": 165389811,
+        "stocks_on_hand_end_of_month_current_month": 10607001,
+        "stocks_on_hand_end_of_month_prior_year_current_month": 10516402,
+        "actual_sales_current_month": 2487568,
+        "actual_sales_prior_year_current_month": 2885610
+    }
+]
